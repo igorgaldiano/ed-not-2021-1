@@ -12,3 +12,4 @@ function buscaBinaria(vetor,valorBusca){
       }
       return -1 // Nao existe
 }
+
