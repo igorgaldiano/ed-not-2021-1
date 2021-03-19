@@ -42,5 +42,6 @@ console.log('Antes:', nomes)
 console.time('Ordenando nomes...')
 selectionSort(nomes)
 console.timeEnd('Ordenando nomes...')
+let memoria = process.memoryUsage().heapUsed / 1024 / 1024
 console.log('Depois:', nomes)
-console.log({trocas,pass,comps})
+console.log({trocas,pass,comps, memoria})
