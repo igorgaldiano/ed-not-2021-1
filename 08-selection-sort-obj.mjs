@@ -32,6 +32,7 @@ function selectionSort(vetor, fnComp){
 
 import {candidatos} from './includes/candidatos-2018.mjs'
 
+
 console.log('Antes', candidatos)
 console.time('Ordenando candidatos...')
 //Ordenando pelo nome de urna (NM_URNA_CANDIDATO)
