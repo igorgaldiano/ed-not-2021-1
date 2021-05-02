@@ -24,14 +24,14 @@ const forma4={
 }
 
     const forma5={
-    base: 'batata',
+    base: 'batata',   //base e altura não são numeros  (sao strings)
     altura: 'beterraba',
     tipo: 'E'
 }
 
     const forma6={
     medida1: 22,
-    medida: 7,
+    medida: 7,   //ocorre que este objeto não tem as propriedades base e altura (tem outras propriedades)
     tipo: 'Q' 
 }
 
@@ -65,3 +65,10 @@ console.log(forma3,calcularArea(forma3))
 console.log(forma4,calcularArea(forma4))
 console.log(forma5,calcularArea(forma5))
 console.log(forma6,calcularArea(forma6))
+
+
+/* 
+    A forma tradicional com que o Javascript lida com objetos não permite o controle sobre sua criação nem sobre o seu conteúdo. Os objetos funcionam 
+    baseados estritamente no "controle de qualidade" feito pelo usuário/ programador.
+
+*/
